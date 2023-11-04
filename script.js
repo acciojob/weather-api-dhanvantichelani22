@@ -11,4 +11,5 @@ document.getElementById('weatherButton').addEventListener('click', function() {
 	  document.getElementById('weatherData').textContent = message;
 	})
 	.catch(error => console.log(error)); // Handle any errors that occur during the fetch request
+}
 });
