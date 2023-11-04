@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.getElementById('weatherButton').addEventListener('click', function() {
   // Send a GET request to the OpenWeatherMap API
-  fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=999b280e8a2bab87c04ce16c25e1420c')
+  fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=55835c942984df70bed1271a457a7931')
 	.then(response => response.json())
 	.then(data => {
 	  // Extract and format the weather data
